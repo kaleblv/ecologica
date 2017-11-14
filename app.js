@@ -15,5 +15,10 @@ module.exports = {
     minify: env === 'production',
     warnForDuplicates: env !== 'production'
   }),
-  babel: jsStandards()
+  babel: jsStandards(),
+  entry: {
+    'js/jquery.bundle': ['./assets/js/jquery.bundle.js'],
+    'js/script': ['./assets/js/script.js'],
+    'js/main': ['./assets/js/index.js']
+  }
 }
