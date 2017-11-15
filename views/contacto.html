@@ -1,6 +1,64 @@
 <extends src='layout.html'>
   <block name='content'>
     <include src='/partials/header.html'></include>
-    contacto
+    <!-- Map -->
+    <div class="map-holder map-contact">
+      <div id="gmap"></div>
+    </div>
+    <!-- End map -->
+    <!-- Content -->
+    <div class="section section-contents section-contact section-pad">
+      <div class="container">
+        <div class="content row">
+
+          <h1>Contacto</h1>
+          <div class="contact-content row">
+            <div class="drop-message col-md-7 res-m-bttm">
+              <p>¿Tiene dudas sobre nuestros servicios y productos? <br>No dude en ponerse en contacto y a la brevedad las responderemos.</p>
+              <include src='/partials/form-contact.html'></include>
+            </div>
+            <div class="row">
+              <div class="contact-details col-sm-6 col-lg-4 col-lg-offset-1">
+                <h3>Villahermosa Tabasco</h3>
+                <ul class="contact-list">
+                  <li><em class="fa fa-map" aria-hidden="true"></em>
+                    <span>Calle Jardines del Sur #115 <br>Col. Atasta C.P. 86100.</span>
+                  </li>
+                  <li><em class="fa fa-phone" aria-hidden="true"></em>
+                    <span>(993) 266 8251</span>
+                  </li>
+                  <li><em class="fa fa-envelope" aria-hidden="true"></em>
+                    <span><a href="mailto:info@ecologica.mx">info@ecologica.mx</a></span>
+                  </li>
+                  <li>
+                    <em class="fa fa-clock-o" aria-hidden="true"></em><span>Lun - Sab: 8AM - 7PM </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="contact-details col-sm-6 col-lg-4 col-lg-offset-1">
+                <h3>Ciudad del Carmen</h3>
+                <ul class="contact-list">
+                  <li><em class="fa fa-map" aria-hidden="true"></em>
+                    <span>Calle 31 Interior 3 <br>Col. Tacubaya C.P. 24180.</span>
+                  </li>
+                  <li><em class="fa fa-phone" aria-hidden="true"></em>
+                    <span>(938) 153 2270</span>
+                  </li>
+                  <li><em class="fa fa-envelope" aria-hidden="true"></em>
+                    <span><a href="mailto:info@ecologica.mx">info@ecologica.mx</a></span>
+                  </li>
+                  <li>
+                    <em class="fa fa-clock-o" aria-hidden="true"></em><span>Lun - Sab: 8AM - 7PM </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Content -->
+    <include src='/partials/footer.html'></include>
+    <include src='/partials/copyright.html'></include>
   </block>
 </extends>

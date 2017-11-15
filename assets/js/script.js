@@ -39,8 +39,8 @@
 			var c_mgn = ($self.data('margin')) ? $self.data('margin') : 30;
 			$self.owlCarousel({
 				navText: ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-				items: c_item, loop: c_loop, nav: c_navs, dots: c_dots, margin: c_mgn, 
-				autoplay: c_auto, autoplayTimeout: c_delay, autoplaySpeed: 700, 
+				items: c_item, loop: c_loop, nav: c_navs, dots: c_dots, margin: c_mgn,
+				autoplay: c_auto, autoplayTimeout: c_delay, autoplaySpeed: 700,
 				responsive:{ 0:{ items:1 }, 480:{ items: c_item_m }, 768:{ items: c_item_t }, 1170:{ items: c_item } }
 			});
 		});
@@ -87,11 +87,24 @@
 	// Google map initialize
 	var $mapholder = $('.map-holder');
 	if ($mapholder.length > 0) {
-	var map = new GMaps({
+	let map = new GMaps({
 		div: '#gmap',
-		lat: -12.043333,
-		lng: -77.028333
+		lat: 18.333723,
+		lng: -92.4836433,
+		zoom: 9
 	});
+	map.addMarker({
+		lat: 17.9798556,
+		lng: -92.9477898,
+		title: 'Villahermosa',
+		icon: '../../img/favicon.png'
+	});
+  map.addMarker({
+    lat: 18.6440113,
+    lng: -91.8223956,
+    title: 'Cd. del Carmen',
+		icon: '../../img/favicon.png'
+  });
 	$mapholder.on('click', function () {
 		$(this).children().css("pointer-events", "auto");
 	});
@@ -99,7 +112,7 @@
 		$(this).children().css("pointer-events", "none");
 	});
 	}
-	// ImageBG 
+	// ImageBG
 	var $imageBG = $('.imagebg');
 	if ($imageBG.length > 0) {
 	$imageBG.each(function() {
@@ -133,21 +146,21 @@
 		gallery: { enabled: true },
 		image: { titleSrc: function (item) {
 			var caption = '', title = item.el.find('img').attr('title'), subtitle = item.el.find('img').attr('alt');
-			if (typeof title!=='undefined' && title !=='') { 
-			  caption = caption + title; 
+			if (typeof title!=='undefined' && title !=='') {
+			  caption = caption + title;
 			}
-			if (typeof subtitle!=='undefined' && subtitle !=='') { 
+			if (typeof subtitle!=='undefined' && subtitle !=='') {
 			  if (typeof title==='undefined' || title ==='') {
-				caption = caption + subtitle; 
+				caption = caption + subtitle;
 			  } else {
-				caption = caption + '<small>' + subtitle + '</small>'; 
+				caption = caption + '<small>' + subtitle + '</small>';
 			  }
 			}
-			if (caption==="") { 
-			  caption = item.el.attr('title'); 
+			if (caption==="") {
+			  caption = item.el.attr('title');
 			}
 			return caption;
-		  } 
+		  }
 		},
 		zoom: { enabled: true }
 	  });
@@ -171,7 +184,7 @@
 	  }
 	  // Quote Form - home page
 	  if (quoteForm.length > 0) {
-		  var selectRec = quoteForm.find('select.required'), 
+		  var selectRec = quoteForm.find('select.required'),
 		  qf_results = quoteForm.find('.form-results');
 		  quoteForm.validate({
 			ignore: [],
