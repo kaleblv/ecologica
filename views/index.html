@@ -1,88 +1,10 @@
 <extends src='layout.html'>
   <block name='content'>
       <include src='/partials/header.html'></include>
-      <!-- Banner/Slider -->
-      <div id="slider" class="banner banner-slider carousel slide carousel-fade">
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <!-- Set the first background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('/img/slider-oil-a.jpg');">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left dark">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">Leading Provider of Industrial Solutions</h2>
-                        <p>Ullamcorper fringi tortor consec adipis elit sed do eiusmod tempor.</p>
-                        <div class="banner-cta">
-                          <a class="btn" href="solution-single.html">Learn More</a>
-                          <a class="btn btn-alt btn-outline" href="contact-us.html">Contact Us</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <!-- Set the second background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('/img/slider-welding-b.jpg');">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left light">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">Highest standards <br>of conduct</h2>
-                        <p>Massa sit amet ullamcorper fringilla tortor consec adipis elit sedsmod.</p>
-                        <div class="banner-cta">
-                          <a class="btn" href="solution-single-alter.html">Learn More</a>
-                          <a class="btn btn-light btn-outline" href="contact-us.html">Contact Us</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <!-- Set the third background image using inline CSS below. -->
-            <div class="fill" style="background-image:url('/img/slider-mine-a.jpg');">
-              <div class="banner-content">
-                <div class="container">
-                  <div class="row">
-                    <div class="banner-text al-left pos-left light">
-                      <div class="animated fadeInRight">
-                        <h2 class="ucap">We are team of the professionals</h2>
-                        <p>Praesent gravida massa sit amet ullamcorper fringilla tortor consec.</p>
-                        <div class="banner-cta">
-                          <a class="btn" href="solution-single-extend.html">Learn More</a>
-                          <a class="btn btn-light btn-outline" href="contact-us.html">Contact Us</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#slider" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <!-- #end Banner/Slider -->
+      <include src='/partials/hero-home.html'></include>
       <include src='/partials/services.html'></include>
-      <include src='/partials/testimonials.html'></include>
-      <include src='/partials/featured-projects.html'></include>
+      <!--<include src='/partials/testimonials.html'></include>
+      <include src='/partials/featured-projects.html'></include>-->
       <include src='/partials/cta-main.html'></include>
       <include src='/partials/clients.html'></include>
       <include src='/partials/footer.html'></include>

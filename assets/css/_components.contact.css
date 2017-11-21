@@ -1,3 +1,19 @@
 .contact-details {
   margin-bottom: 60px;
 }
+
+h4.map-switch__item {
+  cursor: pointer;
+  text-align: center;
+  margin-top: 30px;
+  color: #969696;
+}
+
+h4.map-switch__item:hover {
+  transition: .5s;
+  color: #8EBC3F;
+}
+
+h4.map-switch__item.active {
+  color: #8EBC3F;
+}
