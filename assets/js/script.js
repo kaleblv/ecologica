@@ -579,44 +579,44 @@
     if (url === '/') {
       window.location.href = '/en/'
     }
-		if (url === '/sobre-nosotros/nuestra-historia') {
-			window.location.href = '/en/about-us/history'
+		if (url === '/sobre-nosotros/nuestra-historia.html') {
+			window.location.href = '/en/about-us/history.html'
 		}
-		if (url === '/sobre-nosotros/sociedades-estrategicas') {
-			window.location.href = '/en/about-us/partners'
+		if (url === '/sobre-nosotros/sociedades-estrategicas.html') {
+			window.location.href = '/en/about-us/partners.html'
 		}
-		if (url === '/sobre-nosotros/clientes') {
-			window.location.href = '/en/about-us/clients'
+		if (url === '/sobre-nosotros/clientes.html') {
+			window.location.href = '/en/about-us/clients.html'
 		}
-		if (url === '/servicios/costa-afuera') {
-			window.location.href = '/en/services/offshore-services'
+		if (url === '/servicios/costa-afuera.html') {
+			window.location.href = '/en/services/offshore-services.html'
 		}
-		if (url === '/servicios/cursos') {
-			window.location.href = '/en/services/courses'
+		if (url === '/servicios/cursos.html') {
+			window.location.href = '/en/services/courses.html'
 		}
-		if (url === '/servicios/estudios-stps') {
-			window.location.href = '/en/services/stps-studies'
+		if (url === '/servicios/estudios-stps.html') {
+			window.location.href = '/en/services/stps-studies.html'
 		}
-		if (url === '/servicios/proteccion-ambiental') {
-			window.location.href = '/en/services/environmental-protection'
+		if (url === '/servicios/proteccion-ambiental.html') {
+			window.location.href = '/en/services/environmental-protection.html'
 		}
-		if (url === '/servicios/seguridad-industrial') {
-			window.location.href = '/en/services/industrial-security'
+		if (url === '/servicios/seguridad-industrial.html') {
+			window.location.href = '/en/services/industrial-security.html'
 		}
-		if (url === '/servicios/otros-servicios') {
-			window.location.href = '/en/services/other-services'
+		if (url === '/servicios/otros-servicios.html') {
+			window.location.href = '/en/services/other-services.html'
 		}
-		if (url === '/productos/iluminacion-led') {
-			window.location.href = '/en/products/led-lighting'
+		if (url === '/productos/iluminacion-led.html') {
+			window.location.href = '/en/products/led-lighting.html'
 		}
-		if (url === '/productos/software-hse') {
-			window.location.href = '/en/products/integrated-management-system'
+		if (url === '/productos/software-hse.html') {
+			window.location.href = '/en/products/integrated-management-system.html'
 		}
-		if (url === '/contacto') {
-			window.location.href = '/en/contact'
+		if (url === '/contacto.html') {
+			window.location.href = '/en/contact.html'
 		}
-		if (url === '/aviso-privacidad') {
-			window.location.href = '/en/privacy-policy'
+		if (url === '/aviso-privacidad.html') {
+			window.location.href = '/en/privacy-policy.html'
 		}
 	});
 
@@ -626,44 +626,44 @@
 		if (url === '/en/') {
 			window.location.href = '/'
 		}
-		if (url === '/en/about-us/history') {
-			window.location.href = '/sobre-nosotros/nuestra-historia'
+		if (url === '/en/about-us/history.html') {
+			window.location.href = '/sobre-nosotros/nuestra-historia.html'
 		}
-		if (url === '/en/about-us/partners') {
-			window.location.href = '/sobre-nosotros/sociedades-estrategicas'
+		if (url === '/en/about-us/partners.html') {
+			window.location.href = '/sobre-nosotros/sociedades-estrategicas.html'
 		}
-		if (url === '/en/about-us/clients') {
-			window.location.href = '/sobre-nosotros/clientes'
+		if (url === '/en/about-us/clients.html') {
+			window.location.href = '/sobre-nosotros/clientes.html'
 		}
-		if (url === '/en/services/offshore-services') {
-			window.location.href = '/servicios/costa-afuera'
+		if (url === '/en/services/offshore-services.html') {
+			window.location.href = '/servicios/costa-afuera.html'
 		}
-		if (url === '/en/services/courses') {
-			window.location.href = '/servicios/cursos'
+		if (url === '/en/services/courses.html') {
+			window.location.href = '/servicios/cursos.html'
 		}
-		if (url === '/en/services/stps-studies') {
-			window.location.href = '/servicios/estudios-stps'
+		if (url === '/en/services/stps-studies.html') {
+			window.location.href = '/servicios/estudios-stps.html'
 		}
-		if (url === '/en/services/environmental-protection') {
-			window.location.href = '/servicios/proteccion-ambiental'
+		if (url === '/en/services/environmental-protection.html') {
+			window.location.href = '/servicios/proteccion-ambiental.html'
 		}
-		if (url === '/en/services/industrial-security') {
-			window.location.href = '/servicios/seguridad-industrial'
+		if (url === '/en/services/industrial-security.html') {
+			window.location.href = '/servicios/seguridad-industrial.html'
 		}
-		if (url === '/en/services/other-services') {
-			window.location.href = '/servicios/otros-servicios'
+		if (url === '/en/services/other-services.html') {
+			window.location.href = '/servicios/otros-servicios.html'
 		}
-		if (url === '/en/products/led-lighting') {
-			window.location.href = '/productos/iluminacion-led'
+		if (url === '/en/products/led-lighting.html') {
+			window.location.href = '/productos/iluminacion-led.html'
 		}
-		if (url === '/en/products/integrated-management-system') {
-			window.location.href = '/productos/software-hse'
+		if (url === '/en/products/integrated-management-system.html') {
+			window.location.href = '/productos/software-hse.html'
 		}
-		if (url === '/en/contact') {
-			window.location.href = '/contacto'
+		if (url === '/en/contact.html') {
+			window.location.href = '/contacto.html'
 		}
-		if (url === '/en/privacy-policy') {
-			window.location.href = '/aviso-privacidad'
+		if (url === '/en/privacy-policy.html') {
+			window.location.href = '/aviso-privacidad.html'
 		}
 	});
 })(jQuery);

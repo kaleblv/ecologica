@@ -19,7 +19,6 @@ module.exports = {
   entry: {
     'js/jquery.bundle': ['./assets/js/jquery.bundle.js'],
     'js/script': ['./assets/js/script.js'],
-    'js/gmaps': ['./assets/js/gmaps.js'],
     'js/main': ['./assets/js/index.js']
   }
 }
