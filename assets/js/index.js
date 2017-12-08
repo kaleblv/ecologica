@@ -24,6 +24,16 @@ $(document).ready(function(){
     }
 
 
-  })
+  });
+
+
+  // contact form validation
+
+  $("#contact-us").validate();
+
+
+
+
+
 
 });

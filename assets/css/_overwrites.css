@@ -1,0 +1,26 @@
+.header-s1.has-fixed .navbar {
+  box-shadow: 0 0 11px #c0c0c0;
+}
+
+.topbar .top-nav li a.en {
+  padding-right: 0;
+}
+
+.topbar .top-nav li a.es {
+  padding-left: 0;
+}
+
+a.lang-div {
+  padding: 6px;
+}
+
+
+@media (max-width:414px) {
+  .feature.boxed .fbox-content h3 a {
+    text-align: center;
+  }
+
+  .sm-pull-left {
+    float: left!important;
+  }
+}
