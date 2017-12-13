@@ -23,4 +23,8 @@ a.lang-div {
   .sm-pull-left {
     float: left!important;
   }
+
+  .contact-details {
+    padding: 0 34px;
+  }
 }
