@@ -1,25 +1,21 @@
 $(document).ready(function(){
 
   // map switch
-
   setTimeout(function(){
-    $('#gmapCarmen').hide();
-  }, 1500);
-
-
+    $('#mapCarmen').hide();
+  }, 3000);
 
   $('.map-switch__item').on('click',function(){
     $('.map-switch__item').removeClass('active');
     let city = $(this).html()
-    console.log(city)
     if (city === "Villahermosa") {
-      $('#gmapCarmen').hide();
-      $('#gmapVilla').show();
+      $('#mapCarmen').hide();
+      $('#mapVilla').show();
       $(this).addClass('active');
     }
     if (city === "Ciudad del Carmen") {
-      $('#gmapVilla').hide();
-      $('#gmapCarmen').show();
+      $('#mapVilla').hide();
+      $('#mapCarmen').show();
       $(this).addClass('active');
     }
 

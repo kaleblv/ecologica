@@ -28,3 +28,13 @@ a.lang-div {
     padding: 0 34px;
   }
 }
+
+.navbar-nav > li:hover > .dropdown-menu {
+  z-index: 1000;
+}
+
+
+.map-holder.map-contact {
+  z-index: 5;
+  position: relative;
+}
